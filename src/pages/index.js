@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { DockerImageList } from "@/docker-images/docker-image-list";
-export default function Home() {
+
+export default function Home(props) {
     return (
         <>
             <Head>
@@ -12,9 +13,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
-                <DockerImageList></DockerImageList>
-            </main>
+            <DockerImageList search={props.search}></DockerImageList>
         </>
     );
 }
