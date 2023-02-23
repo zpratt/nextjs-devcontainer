@@ -1,5 +1,5 @@
 {
-  "name": "webapp-workshop",
+  "name": "nextjs-workshop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,5 +37,22 @@
     "jest-environment-jsdom": "29.4.3",
     "playwright": "^1.31.0",
     "whatwg-fetch": "3.6.2"
-  }
+  },
+  "description": "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=603878566)",
+  "main": "\"\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpratt/nextjs-workshop.git"
+  },
+  "keywords": [
+    "nextjs",
+    "workshop",
+    "codespace"
+  ],
+  "author": "zach pratt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpratt/nextjs-workshop/issues"
+  },
+  "homepage": "https://github.com/zpratt/nextjs-workshop#readme"
 }
