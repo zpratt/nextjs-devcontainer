@@ -10,5 +10,6 @@ const moduleMapper = {
 module.exports = configBuilder({
     moduleDirectories: ['node_modules', 'src'],
     moduleNameMapper: moduleMapper,
-    testEnvironment: 'jest-environment-jsdom'
+    testEnvironment: 'jest-environment-jsdom',
+    setupFilesAfterEnv: ['<rootDir>/jest.setup.js']
 });
