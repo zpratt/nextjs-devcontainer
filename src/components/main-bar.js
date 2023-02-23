@@ -13,7 +13,7 @@ export const MainBar = (props) => {
                     <Grid item xs={8}><Typography variant={'h6'}>Containers</Typography></Grid>
                     <Grid item xs={4}>
                         <SearchInput>
-                            <InputBase placeholder={'Search'} onInput={props.search}/>
+                            <InputBase placeholder={'Search'} onInput={props.search} name={'search'}/>
                         </SearchInput>
                     </Grid>
                 </Grid>
